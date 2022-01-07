@@ -9,6 +9,10 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+    "social_twitter_link": "https:\/\/twitter.com\/mentalhealth",
+    "social_facebook_link": "https:\/\/www.facebook.com\/mentalhealthfoundation\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/mentalhealthfoundation",
+    "social_youtube_link": "https:\/\/www.youtube.com\/user\/ukmentalhealth",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -52,8 +56,8 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "",
+              "subtext": ""
             }
           }
         },
@@ -63,9 +67,9 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true

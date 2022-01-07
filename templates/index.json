@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Welcome",
             "heading_size": "medium"
           }
         },
@@ -27,11 +27,13 @@
         "button"
       ],
       "settings": {
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/geran-de-klerk-qzgN45hseN0-unsplash.jpg",
+        "image_2": "shopify:\/\/shop_images\/cat5.jpg",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -43,21 +45,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "MHF online shop",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>All proceeds fund our life-changing work as a UK charity dedicated to mental health.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Explore collections",
+            "button_link": "shopify:\/\/collections",
             "button_style_secondary": false
           }
         }
@@ -90,6 +92,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "video": {
           "type": "video",
@@ -128,17 +131,9 @@
         "mobile_layout": "collage"
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -183,6 +178,16 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "video": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -190,7 +195,7 @@
     "rich_text",
     "featured_products",
     "collage",
-    "video",
-    "multi_column"
+    "multi_column",
+    "video"
   ]
 }
